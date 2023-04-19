@@ -24,6 +24,7 @@ Dengan Endpoint :
   | POST | /register | Register |
 
 - Photos
+- (Authentication)
   | Method | Endpoint | Description |
   |--------|----------|-------------|
   | GET | /photos | Get all photos |
@@ -33,6 +34,7 @@ Dengan Endpoint :
   | DELETE | /photos/:id | Delete photos by id |
 
 - Comment
+- (Authentication)
   | Method | Endpoint | Description |
   |--------|----------|-------------|
   | GET | /comments | Get all comment |
@@ -42,10 +44,11 @@ Dengan Endpoint :
   | DELETE | /comments/:id | Delete comment by id |
 
 - Socialmedia
+  (Authentication)
   | Method | Endpoint | Description |
   |--------|----------|-------------|
   | GET | /socialmedia | Get all socialmedia|
-  | GET | /socialmedia/:id | Get socialmedia by photo id |
+  | GET | /socialmedia/:id | Get socialmedia by id |
   | POST | /socialmedia | Create socialmedia |
   | PUT | /socialmedia/:id | Update socialmedia by id |
   | DELETE | /socialmedia/:id | Delete socialmedia by id |
