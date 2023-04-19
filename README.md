@@ -50,4 +50,4 @@ Dengan Endpoint :
   | PUT | /socialmedia/:id | Update socialmedia by id |
   | DELETE | /socialmedia/:id | Delete socialmedia by id |
 
-- Lakukan Testing menggunakan postmant dengan mengimport file yang bernama `bash my-gram.postman_collection` pada Postman
+- Lakukan Testing menggunakan postman dengan meng-import file yang bernama `my-gram.postman_collection` pada Postman
